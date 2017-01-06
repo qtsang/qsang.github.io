@@ -1,14 +1,14 @@
 ---
 layout: page
 title: About
-description: 知之者不如好之者，好之者不如乐之者
-keywords: qtsang, 知者
+description: 编码为乐
+keywords: qtsang, 码乐
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是知者，知之者不如好之者，好之者不如乐之者。
+我是码乐，知之者不如好之者，好之者不如乐之者。
 
 仰慕「优雅编码的艺术」。
 

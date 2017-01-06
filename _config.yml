@@ -4,10 +4,10 @@
 baseurl:
 url: https://qtsang.github.io
 date_format: "ordinal"
-title: 知者
-subtitle: "知之者不如好之者，好之者不如乐之者"
-description: "知者个人博客"
-keywords: 知者, qtsang
+title: 码乐
+subtitle: "编码为乐"
+description: "码乐个人博客"
+keywords: 码乐, qtsang
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
