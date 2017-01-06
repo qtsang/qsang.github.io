@@ -12,16 +12,19 @@ keywords: Linux
 阅读源码的工具我尝试过以下几类：
 
 1. 释放Linux内存命令
-```
+
+```java
    echo 1 > /pro/sys/vm/drop_caches
 ```
 2. 查看当前文件下面文件大小
-```
+
+```java
    du -sh *
 ```
 
 ## 备用命令
 1.看http的并发请求数及其TCP连接状态
-```
+
+```java
    netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'
 ```
