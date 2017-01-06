@@ -21,3 +21,7 @@ keywords: Linux
 ```
 
 ## 备用命令
+1.看http的并发请求数及其TCP连接状态
+```
+   netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'
+```
