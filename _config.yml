@@ -18,7 +18,7 @@ side_bar_repo_limit: 5
 # ---------------- #
 author: qtsang
 location: Chengdu, China
-email: 279005224@qq.com
+email: 21801303@qq.com
 
 # ---------------- #
 #    Navigation    #
@@ -108,5 +108,4 @@ google:
 # ---------------- #
 #      Datas       #
 # ---------------- #
-skill_software_keywords: [Java, Python, Design Patterns]
-skill_mobile_app_keywords: [Hadoop, Reverse Engineering]
+skill_software_keywords: [Java, 大数据, 云计算,身份安全]

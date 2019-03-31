@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 一道在知乎很火的 Java 题——如何输出 ab
-categories: 编程语言
+categories: 语言技术
 description: 一道在知乎讨论得很火热的 Java 题，网友们的脑洞能给出一些什么样的答案呢？
 keywords: 编程语言,Java
 ---
