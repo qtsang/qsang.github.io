@@ -11,12 +11,13 @@
           {% endif %}
         {% endif %}
         {% if site.lazy_load_duoshuo and site.duoshuo_username %}
-        <a href="#" class="show_duoshuo_comment" onclick="return false;" style="color:rgba(30,55,70,.4);font-size:0.75em;">想留言却没看到评论框？点这里。</a>
+        <a href="https://support.qq.com/products/57679" class="show_duoshuo_comment" onclick="return false;" style="color:rgba(30,55,70,.4);font-size:0.75em;">留言</a>
         <!-- Duoshuo Comment BEGIN -->
         <!-- 多说评论框 BEGIN -->
         <div class="ds-thread" data-thread-key="{{ page.url }}" data-title="{{ page.title }}" data-url="{{ site.url }}{{ page.url }}"></div>
         <!-- 多说评论框 END -->
         <!-- 多说公共JS代码 BEGIN (一个网页只需插入一次) -->
+        <!--
         <script type="text/javascript">
         var duoshuoQuery = {short_name:"{{ site.duoshuo_username }}"};
         $(function() {
@@ -28,6 +29,7 @@
             })
         })
         </script>
+        -->
         <!-- 多说公共JS代码 END -->
         <!-- Duoshuo Comment END -->
         {% endif %}
@@ -36,9 +38,10 @@
       {% if site.duoshuo_username %}
       <!-- Duoshuo Comment BEGIN -->
       <!-- 多说评论框 BEGIN -->
-      <div class="ds-thread" data-thread-key="{{ page.url }}" data-title="{{ page.title }}" data-url="{{ site.url }}{{ page.url }}"></div>
+      <!--<div class="ds-thread" data-thread-key="{{ page.url }}" data-title="{{ page.title }}" data-url="{{ site.url }}{{ page.url }}"></div>-->
       <!-- 多说评论框 END -->
       <!-- 多说公共JS代码 BEGIN (一个网页只需插入一次) -->
+      <!--
       <script type="text/javascript">
       var duoshuoQuery = {short_name:"{{ site.duoshuo_username }}"};
         (function() {
@@ -50,6 +53,7 @@
            || document.getElementsByTagName('body')[0]).appendChild(ds);
         })();
         </script>
+       -->
       <!-- 多说公共JS代码 END -->
       <!-- Duoshuo Comment END -->
       {% endif %}
