@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mac下使用Jrebel插件 
-categories: Mac
+categories: 软件相关
 description: Mac下使用Jrebel插件。
 keywords: Mac,Jrebel
 
