@@ -1,5 +1,5 @@
 ---
-下: post
+layout: post
 title: Mac下使用Jrebel插件 
 categories: Mac软件
 description: Mac下使用Jrebel插件。
