@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Nginx使用踩坑记录
+title: Nginx代理Tomcat负载问题
 categories: 系统运维
-description: 记录使用Ngnix中遇到的坑，方便以后回顾，避免问题再次发生。
-keywords: 中间件,nginx
+description: Nginx代理Tomcat负载问题。
+keywords: 中间件,nginx，Tomcat
 
 ---
 
