@@ -4,10 +4,10 @@
 baseurl:
 url: https://qtsang.github.io
 date_format: "ordinal"
-title: 可乐
+title: 九尾
 subtitle: "三人行,必有我师"
-description: "可乐行个人博客"
-keywords: 可乐, qtsang
+description: "九尾行个人博客"
+keywords: 九尾, qtsang
 favicon: /favicon.ico
 timezone: Asia/Chengdu
 encoding: "utf-8"
