@@ -7,11 +7,9 @@ keywords: 中间件,nginx，Tomcat
 
 ---
 
-本文记录使用Nginx代理Tomcat遇到的坑。
+> 在SpringBoot项目中使用Oauth2做认证的时候，使用Nginx代理应用服务造成JWT不可用，本文记录其解决过程。
 
-一、Nginx代理Tomcat问题(对外使用Nginx提供Https访问，对内Tomcat使用Http)
-
-1、Spring Boot OAuth2 认证失败的问题,发现客户端是Https，跳转到Oauthserver后，获取的是Http问题。
+1、OAuth2 客户端应用采用的是HTTPS部署，而OAUTH2服务端使用HTTP部署，通过前置NGINX做了一层返向代理转发至服务端。
 
 NGINX
 
